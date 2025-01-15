@@ -16,6 +16,7 @@
             "substep_name":"model_eval.ipynb",
             "substep_params":
             {
+                "r2_threshold": 0.7,
                 "mae_threshold":1.5 ,
                 "mape_threshold":0.8
             }
