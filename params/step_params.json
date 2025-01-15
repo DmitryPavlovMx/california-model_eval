@@ -1,0 +1,24 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"user",
+        "pipeline_name":"pipeline",
+        "zone_name":"zone",
+        "X": "something"
+    },
+    "step_params":
+    {
+        "Y": "something_else"
+    },
+    "substeps_params":
+    [
+        {
+            "substep_name":"model_eval.ipynb",
+            "substep_params":
+            {
+                "mae_threshold":1.5 ,
+                "mape_threshold":0.8
+            }
+        }
+    ]
+}
